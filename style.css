@@ -1,0 +1,70 @@
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.item p{
+    position: relative;
+    bottom: 200px;
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+    
+}
+
+a:active{
+    color:cadetblue;
+}
+
+.menu a{
+    margin: 20px;
+    padding: 20px;
+}
+
+.header h1{
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.item img{
+    border-radius: 50px;
+    border-color: teal;
+    border-width: 5px;
+}
+
+.header{
+    margin: 50px;
+    padding: 20px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
